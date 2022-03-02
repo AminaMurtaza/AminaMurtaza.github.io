@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(background.jpg);
+    background-attachment: fixed;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#whole{
+    margin: 5px 200px;
+    background-color: white;
+    height: auto;
+    overflow: auto;
+}
+/*Navigation_Bar*/
+#navigation_bar{
+    height: auto;
+    background-color: #f05513;
+    border: 1px solid #f05513;
+}
+@media(min-width:1920px){
+    #navigation_bar{
+        height: auto;
+        background-color: #f05513;
+        border: 1px solid #f05513;
+    }    
+}
+@media(max-width:700px){
+    #navigation_bar{
+        height: 100px;
+        border: 1px solid #f05513;
+    }
+}
+.navigation_links{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 30px;
+    display: inline-block;
+}
+#navigation_Login{
+    float: right;
+    padding: 5px;
+    margin: 0 5px;
+}
+#navigation_signin{
+    float: right;
+    padding: 5px;
+    margin: 0 5px;
+}
+#navigation_bar a:hover{
+   color: lightgrey;
+   transition: ease-in 0.3s;
+}
+/*Content*/
+#container{
+    height: auto;
+    padding: 0 100px;
+}
+.box_title{
+    margin: 15px 10px;
+    color: #f05513;
+}
+#T-Shirt{
+    margin: 50px;
+    text-align: center;
+    padding: 20px;
+    overflow: auto;
+    box-shadow: 5px 10px 25px black;
+}
+.T-Shirt_name{
+    display: inline-block;
+    height: 570px;
+    width: 344px;
+    margin: 30px 20px 20px;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 5px 10px 25px black;
+}
+.T-Shirt_name:hover{
+    margin-bottom: 10px;
+    transition: ease-in 0.3s;
+}
+#Hoodies{
+    margin: 50px;
+    text-align: center;
+    padding: 20px;
+    overflow: auto;
+    box-shadow: 5px 10px 25px black;
+}
+.Hoodies_name{
+    display: inline-block;
+    height: 570px;
+    width: 344px;
+    margin: 30px 20px 20px;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 5px 10px 25px black;
+}
+.Hoodies_name:hover{
+    margin-bottom: 10px;
+    transition: ease-in 0.3s;
+}
+#Jackets{
+    margin: 50px;
+    text-align: center;
+    padding: 20px;
+    overflow: auto;
+    box-shadow: 5px 10px 25px black;
+}
+.Jackets_name{
+    display: inline-block;
+    height: 570px;
+    width: 344px;
+    margin: 30px 20px 20px;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 5px 10px 25px black;
+}
+.Jackets_name:hover{
+    margin-bottom: 10px;
+    transition: ease-in 0.3s;
+}
+/*Footer*/
+footer{
+    background-color: #f05513;
+    padding: 70px;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_col{
+    width: 25%;
+    padding: 0px 25px;
+}
+.footer_col h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 35px;
+    font-weight: 500px;
+    position: relative;
+}
+.footer_col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: white;
+    height: 2px;
+    width: 50px;
+    box-sizing: border-box;
+}
+.footer_col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer_col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    color: white;
+    transition: all 0.3s ease;
+}
+.footer_col ul li a:hover{
+    color: lightgray;
+    padding-left: 8px;
+}
+.footer_col .social_links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+}
+.footer_col .social_links a:hover{
+    color: #f05513;
+    background-color: white;
+}
+/*responsive*/
+@media(max-width: 767px){
+    .footer_col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+    .footer_col{
+    width: 100%;
+}
+}
