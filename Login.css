@@ -10,12 +10,15 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+#whole{
+  overflow: auto;
+  margin: 150px 0; 
+  text-align: center;
+}
 #Login{
+  display: inline-block;
   height: 600px;
   width: 400px;
-  position: relative;
-  top: 200px;
-  left: 755px;
   background-color: white;
   overflow: auto;
   text-align: center;
